@@ -1,0 +1,19 @@
+.cabecalho-sala {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #00ffff55;
+    margin-bottom: 40px;
+}
+
+.cabecalho-sala h1 {
+    font-size: 2.5em;
+    color: #00ffff;
+    margin-bottom: 10px;
+}
+
+.cabecalho-sala em {
+    color: #ff80bf;
+    font-size: 1.1em;
+}

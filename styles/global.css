@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Audiowide', sans-serif;
+    background: linear-gradient(to bottom, #1c1f26, #2c3e50);
+    color: #f0f0f0;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+.secao {
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff10;
+}
+
+h2 {
+    color: #00bfff;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: #ffaaff;
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+a {
+    color: #80dfff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px #00ffff44;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .cabecalho-sala h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
