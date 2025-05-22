@@ -72,5 +72,37 @@ img {
         font-size: 1.5rem;
     }
 }
+@media (max-width: 480px){
+    .perfil-orkut-exemplo button{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .secao{
+        padding: 10px;
+    }
+    img{
+        margin: 10px 0;
+    }
+}
+    .menu-navegacao{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+    .menu-navegacao a {
+        color: #00ffff;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 6px;
+        transition: background 0.3ms;
+
+
+    }
+    .menu-navegacao a:hoover {
+        background-color: rgba(0, 255, 255, 0.2);
+
+    }
+
 
 
